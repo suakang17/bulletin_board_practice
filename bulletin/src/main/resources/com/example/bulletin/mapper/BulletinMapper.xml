@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bulletin.mapper.BulletinMapper">
+
+    <select id="bulletinCount" resultType="int">
+        SELECT count(bulletinId) AS cnt FROM tbl_bulletin;
+    </select>
+
+    <select id="getList" resultType="com.example.bulletin.domain.Bulletin">
+        SELECT
+            *
+        FROM tbl_bulletin;
+    </select>
+
+</mapper>
