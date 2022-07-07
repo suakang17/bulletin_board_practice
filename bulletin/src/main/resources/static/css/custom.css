@@ -1,0 +1,89 @@
+#bulletin_list_page .bulletin_header {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+}
+
+#bulletin_list_page .bulletin_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+    position: absolute;
+    width: 297px;
+    height: 64px;
+    left: 230px;
+    top: 28px;
+}
+
+#bulletin_list_page .btn_write_txt {
+    background-color: #5EC75E;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 111px;
+    height: 48px;
+    border: none;
+
+    cursor: pointer;
+}
+
+#bulletin_list_page .btn_write {
+    padding: 0;
+    position: absolute;
+    left: 1495px;
+    top: 177px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+#bulletin_list_page .bulletin_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#bulletin_list_page .btn_page {
+    border: none;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 285px;
+
+    cursor: default;
+}
+
+#bulletin_list_page .btn_page_num {
+    background-color: #5EC75E;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    width: 40px;
+    height: 46px;
+
+    cursor: pointer;
+
+    flex-basis: 40px;
+}
+
+#bulletin_list_page .table {
+    position: relative;
+    top: 250px;
+    align-content: center;
+
+    flex-basis: auto ;
+}
+

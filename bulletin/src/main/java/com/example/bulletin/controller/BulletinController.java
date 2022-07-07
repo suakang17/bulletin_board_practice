@@ -25,4 +25,10 @@ public class BulletinController {
 
 		return "/bulletin/exmpl";
 	}
+
+	@GetMapping("/main")
+	public String main(Model model){
+		model.addAttribute("list", service.bulletinList());
+		return "/bulletin/main";
+	}
 }
