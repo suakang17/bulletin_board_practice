@@ -31,4 +31,9 @@ public class BulletinController {
 		model.addAttribute("list", service.bulletinList());
 		return "/bulletin/main";
 	}
+
+	@GetMapping("/index")
+	public String index(){
+		return "/bulletin/index";
+	}
 }
