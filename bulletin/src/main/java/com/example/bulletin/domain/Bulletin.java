@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -14,6 +15,7 @@ import java.time.LocalDateTime;
 public class Bulletin {
     private Long bulletinId;
     private String title;
+    private Date date;
     private String content;
     private String name;
     private LocalDateTime createDate;
