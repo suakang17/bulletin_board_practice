@@ -15,7 +15,7 @@ public class BulletinController {
 	private final BulletinService service;
 	@GetMapping("/exmpl")
 	public String Example(){
-		return "/bulletin/exmpl";
+		return "bulletin/exmpl";
 	}
 
 	@GetMapping("/test")
@@ -23,13 +23,19 @@ public class BulletinController {
 		model.addAttribute("cnt", service.bulletinCount());
 		model.addAttribute("test", service.bulletinList());
 
-		return "/bulletin/exmpl";
+		return "bulletin/exmpl";
 	}
 
 	@GetMapping("/main")
 	public String main(Model model){
 		model.addAttribute("list", service.bulletinList());
-		return "/bulletin/main";
+		return "bulletin/main";
+	}
+
+	@GetMapping("/index")
+	public String index(Model model){
+		model.addAttribute("list", service.bulletinList());
+		return "bulletin/index";
 	}
 
 	@GetMapping("/post")
