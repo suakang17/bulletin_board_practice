@@ -17,4 +17,6 @@ public class BulletinService { //bulletinmapper > bulletinmapper.xml통해 반�
     public int bulletinCount(){return bulletinMapper.bulletinCount();}
 
     public List<Bulletin> bulletinList(){return bulletinMapper.getList();}
+
+    public Bulletin getPost(Long bulletinId){return bulletinMapper.getPost(bulletinId);}
 }
