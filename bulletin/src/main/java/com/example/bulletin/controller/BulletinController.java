@@ -37,4 +37,10 @@ public class BulletinController {
 		model.addAttribute("list", service.bulletinList());
 		return "bulletin/index";
 	}
+
+	@GetMapping("/post")
+	public String viewPost(Model model, Long bulletinId) {
+		model.addAttribute("post", service.getPost(bulletinId));
+		return "/bulletin/post";
+	}
 }

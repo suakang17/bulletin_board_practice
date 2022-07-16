@@ -1,0 +1,236 @@
+#bulletin_list_page .btn_return_txt {
+    background-color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 111px;
+    height: 48px;
+    border: none;
+
+    cursor: pointer;
+}
+
+#bulletin_list_page .btn_return {
+    padding: 0;
+    position: absolute;
+    left: 357px;
+    top: 158px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+#bulletin_list_page .btn_comment {
+    border: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 946px;
+    left: 936px;
+
+    cursor: default;
+}
+
+#bulletin_list_page .btn_comment_txt {
+    background-color: #5EC75E;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    width: 79px;
+    height: 106px;
+    line-height: 24px;
+
+    cursor: pointer;
+
+    flex-basis: 40px;
+    align-items: center;
+}
+
+#bulletin_list_page .post_area {
+    position: absolute;
+    width: 685px;
+    height: 593px;
+    left: 357px;
+    top: 252px;
+
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+#bulletin_list_page .post_area .post_title_area {
+    position: absolute;
+    width: 613px;
+    height: 160px;
+    left: 393px;
+    top: 412px;
+
+    border-bottom: 1px solid #696969;
+}
+
+#bulletin_list_page .post_area .post_title_area .post_title_text {
+    position: absolute;
+    width: 236px;
+    height: 37px;
+    left: 393px;
+    top: 289px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#bulletin_list_page .post_area .post_title_area .post_title_info {
+    display: flex;
+}
+
+#bulletin_list_page .post_area .post_title_area .post_title_info .post_title_nickname {
+    position: absolute;
+    width: 89px;
+    height: 37px;
+    left: 399px;
+    top: 349px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    flex-basis: 116px;
+
+    color: #696969;
+}
+
+
+#bulletin_list_page .post_area .post_title_area .post_title_info .post_title_time {
+    position: absolute;
+    width: 116px;
+    height: 37px;
+    left: 501px;
+    top: 349px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    flex-basis: 116px;
+
+    color: #696969;
+}
+
+#bulletin_list_page .post_area .post_content {
+    position: absolute;
+    width: 534px;
+    height: 152px;
+    left: 413px;
+    top: 429px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #696969;
+}
+
+#bulletin_list_page .post_area .post_read_buttons {
+    position: absolute;
+    width: 613px;
+    height: 96px;
+    left: 393px;
+    top: 749px;
+
+    border-top: 1px solid #696969;
+}
+
+#bulletin_list_page .post_area .post_read_buttons .post_read_modify_button {
+    position: absolute;
+    width: 49.01px;
+    height: 29px;
+    left: 413.23px;
+    top: 780px;
+
+    background-color: #696969;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#bulletin_list_page .post_area .post_read_buttons .post_read_delete_button {
+    position: absolute;
+    width: 49.01px;
+    height: 29px;
+    left: 513.23px;
+    top: 780px;
+
+    background-color: #CD1039;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#bulletin_list_page .post_comment_area {
+    position: absolute;
+    width: 849px;
+    height: 275px;
+    left: 275px;
+    top: 900px;
+
+    border-top: 1px solid #696969;
+    display: flex;
+}
+
+#bulletin_list_page .post_comment_area .post_comment_input_area {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 558px;
+    height: 176px;
+    left: 356px;
+    top: 946px;
+
+    background: #FFFFFF;
+    border: 1px solid #696969;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+

@@ -12,4 +12,10 @@
         FROM tbl_bulletin;
     </select>
 
+    <select id="getPost" parameterType="Long" resultType="com.example.bulletin.domain.Bulletin">
+        SELECT
+            *
+        FROM tbl_bulletin where bulletinId=#{bulletinId};
+    </select>
+
 </mapper>

@@ -12,4 +12,6 @@ public interface BulletinMapper {
 
     List<Bulletin> getList();
 
+    Bulletin getPost(Long bulletinId);
+
 }
