@@ -21,7 +21,6 @@
                 <tr>
                     <th>번호</th>
                     <th>제목</th>
-                    <th>내용</th>
                     <th>작성자</th>
                     <th>작성일</th>
                     <!--/*<th>조회수</th>*/-->
@@ -29,8 +28,7 @@
                 </thead>
                 <tr th:each="list :${list}">
                     <td>[[${list.bulletinId}]]</td>
-                    <td>[[${list.title}]]</td>
-                    <td>[[${list.content}]]</td>
+                    <td><a th:href="@{/bulletin/post(bulletinId=${list.bulletinId})}">[[${list.title}]]</a></td>
                     <td>[[${list.name}]]</td>
                     <td>[[${list.date}]]</td>
                     <!--/*<td>[[${list.조회수}]]</td>*/-->
