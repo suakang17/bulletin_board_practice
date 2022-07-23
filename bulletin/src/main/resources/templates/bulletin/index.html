@@ -28,7 +28,7 @@
                 </thead>
                 <tr th:each="list :${list}">
                     <td>[[${list.bulletinId}]]</td>
-                    <td><a th:href="@{/bulletin/post(bulletinId=${list.bulletinId})}">[[${list.title}]]</a></td>
+                    <td><a style="text-decoration: none" th:href="@{/bulletin/post(bulletinId=${list.bulletinId})}">[[${list.title}]]</a></td>
                     <td>[[${list.name}]]</td>
                     <td>[[${list.date}]]</td>
                     <!--/*<td>[[${list.조회수}]]</td>*/-->
