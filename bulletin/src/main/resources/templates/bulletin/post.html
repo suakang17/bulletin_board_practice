@@ -11,6 +11,7 @@
 <!--/*content*/-->
 
 <div layout:fragment="content">
+  <div class="READ">
   <button class="btn_return">
     <input class="btn_return_txt" type='button' value='돌아가기'/>
   </button>
@@ -22,7 +23,7 @@
         <div class="post_title_nickname">[[${post.name}]]</div>
         <div class="post_title_time">[[${post.date}]]</div>
       </div>
-    </div>>
+    </div>
     <!--/*내용영역*/-->
     <div class="post_content">[[${post.content}]]</div>
     <!--/*내용 버튼영역*/-->
@@ -37,5 +38,6 @@
       <input class="btn_comment_txt" type='button' value='댓글 작성'/>
     </button>
   </div>
+</div>
 </div>
 </html>
